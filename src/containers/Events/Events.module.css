@@ -1,0 +1,401 @@
+.our {
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+    background-color: var(--white);
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-right: 2%;
+    padding-left: 4%;
+    flex-direction: row;
+    position: relative;
+    /* left: 70px; */
+    padding: 10px;
+  }
+
+  .fl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+
+  /* .cont {
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+    background-color: var(--white);
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-right: 2%;
+    padding-left: 4%;
+    flex-direction: row;
+    position: relative;
+    right: 0px;
+    padding: 10px;
+  } */
+  
+  .fl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  
+  .eme {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.52;
+    position: relative;
+    text-align: center;
+  }
+  
+  .des {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .sub {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+  }
+  
+  .container {
+    flex-basis: 40vw;
+  }
+
+
+
+.container {
+    flex-basis: 40vw;
+  }
+  
+  .wasss {
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    color: #f89920;
+    text-align: center;
+  }
+  
+  .applyNow {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+
+  .applyNow > div {
+    border: 2px solid #2ba4dc;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .applyNow > div > span {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2ba4dc;
+  }
+
+  
+  .applyNow > div > img {
+    padding: 0 10px;
+  }
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.heading {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.subContainer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+}
+
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.paginationDot {
+    height: 8px;
+    width: 8px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.paginationDotActive {
+    background-color: #ec3944;
+}
+
+.paginationDotInactive {
+    background-color: rgba(236, 57, 68, 0.25);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    justify-content: flex-end;
+}
+
+.arrowButton, .exploreButton {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+/* .arrowButton button {
+    width: 9vw;
+    height: 9vw;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0 rgba(236, 57, 68, 0.25);
+    background-color: #ec3944;
+    margin-bottom: 10px;
+    align-items: center;
+} */
+
+.arrowButton img {
+    width: 5vw;
+}
+
+.exploreButton button {
+    border: none;
+    box-shadow: 0 10px 20px 0 rgba(236, 57, 68, 0.25);
+    background-color: #ec3944;
+    align-items: center;
+    color: #ffffff;
+    width: 60vw;
+    padding: 2vw;
+    border-radius: 0.3em;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.exploreButton img {
+    width: 6vw;
+    margin-left: 3vw;
+}
+
+.arrowButton button:hover, .exploreButton button:hover {
+    opacity: 0.85;
+}
+
+@media all and (min-height: 700px) {
+    .subContainer {
+        height: 80vh;
+    }
+}
+
+@media all and (max-height: 500px) {
+    .subContainer {
+        height: 50vh;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .arrowButton, .paginationContainer {
+        display: none;
+    }
+    .subContainer {
+        height: 80vh;
+
+    }
+    .heading {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .card {
+        margin-top: -38vh;
+    }
+    .buttons {
+        margin: 1.5em;
+        width: 20vw;
+        height: 10vh;
+        align-content: center;
+    }
+    .exploreButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: fit-content;
+        height: min-content;
+        align-content: flex-end;
+        margin-bottom: -9vh;
+        align-self: center;
+    }
+    .exploreButton button {
+        width: max-content;
+        /* height: 5vh; */
+        padding: 15px 2em;
+        border-radius: 0.3em;
+        margin: 7vw;
+        font-size: 1.4em;
+        align-self: center;
+    }
+    .exploreButton img {
+        width: 2em;
+        margin-left: 1vw;
+    }
+    .data {
+        max-height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .card {
+        margin-top: -44vh;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1199px) {
+    .heading {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .paginationContainer {
+        margin-top: 15px;
+    }
+    .card {
+        margin-top: 2.2vw;
+    }
+    .arrowButton {
+        width: 35vw;
+    }
+    .arrowButton button {
+        width: 38px;
+        height: 38px;
+    }
+    .arrowButton img {
+        width: 20px;
+        margin-bottom: none;
+    }
+    .exploreButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: fit-content;
+        height: min-content;
+        align-content: flex-end;
+        /* margin-bottom: -9vh; */
+        align-self: center;
+    }
+    .exploreButton button {
+        width: max-content;
+        /* height: 5vh; */
+        padding: 14px 2em;
+        border-radius: 0.3em;
+        margin: 1vw;
+        font-size: 20px;
+        align-self: center;
+    }
+    .exploreButton img {
+        width: 2em;
+        margin-left: 1vw;
+    }
+    .data {
+        height: 77vh;
+        margin: 1em;
+    }
+}
+
+
+@media all and (min-width: 700px) and (max-width: 999px) {
+    .heading {
+        font-size: 40px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    /* .subContainer { */
+    /* width: 90vh; */
+    /* } */
+    .card {
+        margin-top: 5.5vh;
+    }
+    .buttons {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 2vh; */
+    }
+    .arrowButton {
+        width: 40vw;
+        align-self: center;
+    }
+    .exploreButton {
+        align-self: center;
+        margin-top: 1vh;
+    }
+    .exploreButton button {
+        width: fit-content;
+        font-size: 1em;
+    }
+    .exploreButton img {
+        width: 2em;
+    }
+    .arrowButton button {
+        width: 5vw;
+        height: 5vw;
+    }
+    .arrowButton img {
+        width: 2vw;
+    }
+}
+
+@media all and (min-width: 0px) {
+  .subContainer {
+    width: 0px;
+    height: 50vh;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width:450px) {
+  .subContainer {
+    margin-top: -12vh;
+  }
+}

@@ -1,0 +1,151 @@
+.page {
+  scroll-behavior: smooth;
+  padding: 40px 22.56%;
+  background-color: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+  @media screen and (max-width: 1300px) {
+    padding: 40px 19%;
+  }
+  @media screen and (max-width: 1100px) {
+    padding: 40px 11%;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 40px 7%;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 40px 3%;
+  }
+  .headerBox {
+    margin-bottom: 13px;
+    background-color: #fff;
+    padding: 40px 0 0 15.82%;
+    border: solid 1px #d8d8d8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 900px) {
+      padding-left: 12%;
+    }
+    @media screen and (max-width: 700px) {
+      padding-left: 7%;
+    }
+    @media screen and (max-width: 700px) {
+      padding-top: 20px;
+    }
+    .heading {
+      width: 63%;
+      padding-bottom: 40px;
+      @media screen and (max-width: 700px) {
+        width: 55%;
+        padding-bottom: 20px;
+      }
+      &__primary {
+        font-family: Poppins, sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #f89920;
+        @media screen and (max-width: 900px) {
+          font-size: 32px;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 30px;
+        }
+        @media screen and (max-width: 400px) {
+          font-size: 28px;
+        }
+        @media screen and (max-width: 350px) {
+          font-size: 25px;
+        }
+      }
+
+      .description {
+        margin-top: 13px;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+        @media screen and (max-width: 900px) {
+          font-size: 13px;
+        }
+        @media screen and (max-width: 500px) {
+          width: 80%;
+        }
+        @media screen and (max-width: 350px) {
+          font-size: 11px;
+        }
+      }
+    }
+    .svg_box {
+      padding-left: 5px;
+      width: 35%;
+      @media screen and (max-width: 800px) {
+        width: 40%;
+      }
+      display: flex;
+      align-self: flex-end;
+      .svg {
+        align-self: flex-end;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .formGroup {
+    border: solid 1px #d8d8d8;
+    margin: 13px 0;
+    background-color: #fff;
+    padding: 48px 15.82% 48px 15.82%;
+    border-radius: 10px;
+    @media screen and (max-width: 900px) {
+      padding-left: 12%;
+      padding-right: 12%;
+    }
+    @media screen and (max-width: 700px) {
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+
+    .questionCheckBox {
+      padding: 10px 0;
+
+      .question {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .btn {
+    width: 36%;
+    padding: 30px 0;
+    background-color: #f89920;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+    @media screen and (max-width: 700px) {
+      padding: 20px 0;
+      width: 45%;
+    }
+    @media screen and (max-width: 500px) {
+      padding: 20px 0;
+      width: 55%;
+    }
+  }
+}

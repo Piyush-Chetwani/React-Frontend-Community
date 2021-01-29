@@ -1,0 +1,106 @@
+.group {
+  position: relative;
+  margin: 33px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 5px 0;
+
+  .label {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #454545;
+    margin-bottom: 10px;
+    @media screen and (max-width: 400px) {
+      font-size: 13px;
+    }
+
+    .labelStar {
+      color: #db4437;
+    }
+  }
+  .inputEl {
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    padding: 9px 0 5px 16px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    @media screen and (max-width: 400px) {
+      font-size: 13px;
+    }
+  }
+
+  input {
+    &::placeholder {
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #999;
+      margin-left: 16px;
+      @media screen and (max-width: 400px) {
+        font-size: 13px;
+      }
+    }
+
+    // &:invalid:focus:placeholder-shown {
+    //   border-color: #db4437;
+    //   box-shadow: none;
+    //   & ~ .warning {
+    //     visibility: visible;
+    //   }
+    //   & ~ .footNote {
+    //     display: none;
+    //   }
+    // }
+  }
+  .warning {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #db4437;
+    visibility: hidden;
+  }
+  .showWarning {
+    box-shadow: none;
+    border: 1px solid #db4437;
+    & ~ .warning {
+      visibility: visible;
+    }
+    & ~ .footNote {
+      display: none;
+    }
+  }
+  .footNote {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    margin: 5px 0;
+    color: #818a91;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    @media screen and (max-width: 400px) {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.button {
+  appearance: none;
+  height: max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}

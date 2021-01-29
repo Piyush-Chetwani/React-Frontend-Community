@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+.headingWrapper {
+  position: relative;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0.2em;
+  /* background-color: white; */
+}
+
+.buttonWrapper {
+  padding: 2em;
+}
+.buttonContent {
+  font-size: 12px;
+  text-align: center;
+  padding: 0.2em;
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    height: 50vh;
+    padding-top: 1.5em;
+  }
+
+  .circle {
+    position: absolute;
+    left: -11%;
+    bottom: 35%;
+  }
+  .buttonWrapper {
+    padding: 2em;
+  }
+  .buttonContent {
+    font-size: 12px;
+    text-align: center;
+    padding: 0.2em;
+    padding-top: 1em;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .buttonWrapper {
+    padding: 0.5em;
+  }
+  .container {
+    height: 40vh;
+    padding-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .buttonWrapper {
+    padding: 0.5em;
+  }
+
+  /* .buttonContainer {
+    display: inline-block;
+    flex-direction: initial;
+  } */
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0.2em;
+  }
+  .container {
+    height: 80vh;
+  }
+  .circle {
+    position: absolute;
+    left: -15%;
+    bottom: 35%;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+  }
+  .buttonContent {
+    font-size: 10x;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonWrapper {
+    padding: 0.5em;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .buttonContent {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,597 @@
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: Poppins;
+}
+
+.home {
+  transform: translateY(-150px);
+}
+
+.hero {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-content: flex-start;
+  margin-top: 70px;
+  margin-left: 15%;
+}
+
+.vis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 41%;
+}
+.description {
+  margin: 40px 0 15px 0;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+
+.soFar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.wss_welcome {
+  font-size: 38px;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 0.9;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.wss_zCommunity {
+  font-size: 50px;
+  font-weight: 900;
+  font-stretch: normal;
+  line-height: 0.9;
+  margin: 0;
+  color: #f89920;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.st {
+  width: 52%;
+}
+
+.nav {
+  width: 720px;
+  height: 83px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+  background-color: white;
+  margin-left: 20%;
+  margin-top: 4%;
+  position: absolute;
+}
+
+.part {
+  opacity: 0.54;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.partnerImgs {
+  width: 60%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.partnerImgs > span > img {
+  padding: 7px 30px;
+  max-width: 90vw;
+}
+
+.sbn {
+  height: 42px;
+  border-radius: 5px;
+  background-color: #f89920;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.cnt {
+  border: solid 1px #f89920;
+  padding: 5px;
+  padding-right: 1%;
+  border-radius: 10px;
+}
+
+.cnt > form {
+  display: flex;
+  align-items: center;
+}
+
+.cnt > form > label {
+  flex: 1;
+}
+
+.cnt > form > label > input {
+  width: 100%;
+  font-size: 17px;
+}
+
+.cnt > form > label > input::placeholder {
+  color: #707070;
+}
+
+.cnt > form > img {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.joinNow {
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.email {
+  width: 50%;
+  height: 38px;
+  border-radius: 5px;
+  border-color: #f89920;
+  padding-left: 3%;
+  margin-right: 1vw;
+  border: none;
+  font-style: "Poppins";
+  font-size: 15px;
+  border: solid 1px white;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.eve,
+.whyus {
+  display: flex;
+  width: 45%;
+  margin: 80px auto 0 auto;
+  align-items: center;
+}
+
+.prog {
+  display: flex;
+  width: 45%;
+  margin: 80px auto 0 auto;
+  align-items: center;
+}
+
+.eve > hr {
+  height: 1px;
+  background-color: #db4437;
+}
+.prog > hr {
+  height: 1px;
+  background-color: #2ba4dc;
+}
+
+.whyus > hr {
+  height: 1px;
+  background-color: #45b14f;
+}
+
+.prog {
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2ba4dc;
+  margin-top: 11%;
+}
+
+.eve {
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #db4437;
+  margin-bottom: 8%;
+  margin-top: 2%;
+}
+
+.whyus {
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #45b14f;
+  margin-bottom: 100px;
+  line-height: 0.05;
+}
+
+.com {
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2ba4dc;
+  margin-top: 7%;
+}
+
+.w {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-bottom: 5%;
+  margin-top: 5%; */
+  margin: 5% 20px;
+}
+
+.w img {
+  flex-basis: 18%;
+}
+
+.zubi {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 550;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #2ba4dc;
+  width: 35%;
+  margin-left: 7%;
+  float: left;
+  margin-top: 1%;
+}
+
+.our {
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--white);
+  margin-bottom: 3%;
+  margin-top: 3%;
+  padding-right: 2%;
+  padding-left: 4%;
+  flex-direction: row;
+}
+
+.fl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.eme {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.52;
+}
+
+.des {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+}
+
+.container {
+  flex-basis: 40vw;
+}
+
+.wasss {
+  font-size: 28px;
+  font-weight: 900;
+  font-stretch: normal;
+  color: #f89920;
+  text-align: center;
+}
+
+.applyNow {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.applyNow > div {
+  border: 2px solid #2ba4dc;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.applyNow > div > span {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2ba4dc;
+}
+
+.applyNow > div > img {
+  padding: 0 10px;
+}
+
+.experience {
+  font-family: Poppins;
+  font-size: 48px;
+  margin-top: 80px;
+}
+
+@media all and (max-width: 1150px) {
+  .eve,
+  .prog,
+  .whyus {
+    font-size: 40px;
+  }
+  .container {
+    flex-basis: 45vw;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .eve {
+    margin-top: 0px;
+    transform: translateY(-70px);
+  }
+  .prog {
+    margin-top: 100px;
+  }
+  .wasss {
+    font-size: 25px;
+  }
+  .container {
+    flex-basis: 50vw;
+  }
+}
+
+@media all and (max-width: 990px) {
+  .home {
+    transform: translateY(-70px);
+  }
+  .hero {
+    margin-left: 8%;
+  }
+  .description {
+    font-size: 15px;
+  }
+
+  .wss_welcome {
+    font-size: 32px;
+  }
+
+  .wss_zCommunity {
+    font-size: 40px;
+  }
+  .eve,
+  .prog,
+  .whyus {
+    font-size: 37px;
+  }
+  .container {
+    flex-basis: 55vw;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .our {
+    width: 50vw;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .eve,
+  .prog,
+  .whyus {
+    font-size: 34px;
+  }
+  .our {
+    width: 60vw;
+  }
+  .applyNow > div > span {
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .home {
+    transform: translateY(0px);
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: 9%;
+  }
+
+  .vis {
+    width: 70%;
+  }
+  .st {
+    width: 90%;
+  }
+
+  .wss_welcome {
+    font-size: 42px;
+  }
+
+  .wss_zCommunity {
+    font-size: 54px;
+  }
+
+  .description {
+    margin: 40px 0;
+  }
+  .eve,
+  .prog,
+  .whyus {
+    width: 60%;
+    font-size: 32px;
+  }
+  .heroPhoto {
+    display: none;
+  }
+}
+
+@media all and (min-width: 801px) {
+  .heroPic {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .vis {
+    width: 80%;
+  }
+  .st {
+    width: 90%;
+  }
+
+  .wss_welcome {
+    font-size: 38px;
+  }
+
+  .wss_zCommunity {
+    font-size: 50px;
+  }
+
+  .eve,
+  .prog,
+  .whyus {
+    width: 70%;
+  }
+  .cnt > form > label > input,
+  .joinNow {
+    font-size: 14px;
+  }
+  .container {
+    flex-basis: 70vw;
+  }
+  .our {
+    width: 70vw;
+  }
+
+  .com {
+    margin-top: 30px;
+  }
+  .wasss {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .vis {
+    width: 90%;
+  }
+  .wss_welcome {
+    font-size: 36px;
+  }
+
+  .wss_zCommunity {
+    font-size: 46px;
+  }
+
+  .eve,
+  .prog,
+  .whyus {
+    font-size: 28px;
+  }
+  .cnt > form > label > input,
+  .joinNow {
+    font-size: 13px;
+  }
+  .container {
+    flex-basis: 80vw;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  .our {
+    width: 75vw;
+  }
+
+  .com {
+    font-size: 30px;
+  }
+  .wasss {
+    margin-top: 100px;
+  }
+  .sub {
+    margin-top: -80px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .vis {
+    width: 96%;
+  }
+  .hero {
+    margin-left: 6%;
+  }
+  .wss_welcome {
+    font-size: 32px;
+  }
+
+  .wss_zCommunity {
+    font-size: 42px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .joinNow {
+    padding: 0 18px;
+  }
+  .prog {
+    font-size: 23px;
+  }
+  .com {
+    font-size: 24px;
+  }
+
+  .our {
+    width: 75vw;
+  }
+
+  .our .eme {
+    font-size: 21px;
+  }
+  .our .des {
+    font-size: 15px;
+  }
+
+  .applyNow > div > span {
+    font-size: 15px;
+    padding: 7px 16px;
+  }
+}

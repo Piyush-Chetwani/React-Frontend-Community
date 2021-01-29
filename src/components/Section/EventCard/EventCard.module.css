@@ -1,0 +1,284 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1vh;
+    max-width: 60vw;
+    max-height: 75vh;
+    border-radius: 10px;
+    box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+    font-family: Poppins;
+}
+
+.eventInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.eventInfo img {
+    width: 55vw;
+    /* height: 40vw; */
+    /* position: absolute;
+    top: 2vh; */
+}
+
+.title {
+    font-weight: 700;
+    font-size: 0.6em;
+}
+
+.text {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.text p {
+    font-size: 0.55em;
+    --max-lines: 2;
+        height: calc(var(--lh)*var(--max-lines));
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: var(--max-lines);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    
+}
+
+.eventInfo button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    border: none;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 2vh;
+    height: 26px;
+    border-radius: 118px;
+    background-color: #049cdc;
+    font-family: Poppins;
+}
+
+.eventInfo button:hover {
+    opacity: 0.75;
+}
+
+.dateInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    align-self: flex-start;
+    top: -3vh;
+    left: -7vw;
+    z-index: 2;
+    width: 6em;
+    height: 6em;
+    font-size: 0.7em;
+    text-align: center;
+    color: #ffffff;
+    padding: 1em;
+    font-weight: 500;
+    border-radius: 50% 50% 0 50%;
+}
+
+@media only screen and (min-width: 1400px) {
+    .cardContainer {
+        width: 22vw !important;
+        margin-top: 9vh !important;
+    }
+    .eventInfo img {
+        width: 21vw !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .cardContainer {
+        width: 23vw !important;
+        margin-top: 15vh !important;
+    }
+    .eventInfo img{
+        width: 22vw !important;
+    }
+    .text{
+        width: 22vw !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .eventCardMain {
+        width: 85vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40vh;
+    }
+    .cardContainer {
+        padding: 1em;
+        width: 23vw;
+        height: 32em;
+        /* margin-top: 43vh; */
+    }
+    .eventInfo img {
+        width: 20vw;
+        height: auto;
+        margin-top: 0.5em;
+        margin-bottom: -1em;
+    }
+    .eventInfo {
+        width: 23vw;
+        margin: 0.5vw;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .text {
+        text-align: center;
+        margin-top: 4vw;
+    }
+    .text p {
+        font-size: 1em;
+        --max-lines: 2;
+        height: calc(var(--lh)*var(--max-lines));
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: var(--max-lines);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    
+    }
+    .eventInfo button {
+        width: max-content;
+        font-size: 1em;
+        height: 37px;
+        justify-content: center;
+    }
+    .dateInfo {
+        top: -3vw;
+        left: -3vw;
+        width: 6em;
+        height: 6em;
+        font-size: 0.9em;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1199px) {
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* margin-top: 40vh; */
+        max-height: 59vh;
+        max-width: 45vw;
+    }
+    .eventCardMain {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .eventInfo img {
+        width: 30vw;
+        /* height: 30vw; */
+    }
+    .eventInfo {
+        max-width: 32vw;
+        margin: -0.5em;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 1.3em;
+    }
+    .text {
+        text-align: center;
+        width: 32vw;
+        /* margin-top: 2vw; */
+    }
+    .text p {
+        font-size: 1em;
+        --max-lines: 2;
+        height: calc(var(--lh)*var(--max-lines));
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: var(--max-lines);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+    .eventInfo button {
+        width: 16vw;
+        font-size: 1em;
+        /* margin-bottom: 8vh; */
+    }
+    .dateInfo {
+        top: -3vw;
+        left: -5vw;
+        width: 7em;
+        height: 7em;
+        font-size: 0.8em;
+        padding: 0.7em;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 900px) {
+    .cardContainer {
+        padding: 1vh;
+        width: 43vw;
+        height: 65vw;
+    }
+    .eventInfo img {
+        width: 39vw;
+        /* height: 30vw; */
+    }
+    .eventInfo {
+        max-width: 42vw;
+        margin-top: 0.5em;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+    .text {
+        text-align: center;
+        /* margin-top: 2vw; */
+    }
+    .text p {
+        font-size: 0.9em;
+        --max-lines: 2;
+        height: calc(var(--lh)*var(--max-lines));
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: var(--max-lines);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    
+    }
+    .eventInfo button {
+        width: 16vw;
+        font-size: 1em;
+        /* margin-bottom: 8vh; */
+    }
+    .dateInfo {
+        top: -5vw;
+        left: -5vw;
+        width: 6em;
+        height: 6em;
+        font-size: 0.8em;
+        padding: 0.7em;
+    }
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.686" height="24.686" data-name="Layer 1" viewBox="0 0 24.686 24.686">
+    <g data-name="&lt;Group&gt;">
+        <path d="M24.686 24.686H0V0h18.174a.681.681 0 0 1 0 1.361H1.361v21.964h21.964V6.512a.681.681 0 1 1 1.361 0z" data-name="&lt;Path&gt;"/>
+    </g>
+    <g data-name="&lt;Group&gt;">
+        <path d="M20.118 5.248H4.292a.681.681 0 1 1 0-1.361h15.826a.681.681 0 1 1 0 1.361z" data-name="&lt;Path&gt;"/>
+    </g>
+    <g data-name="&lt;Group&gt;">
+        <path d="M3.816 19.632L19.641 4.081l.954.97L4.77 20.604z" data-name="&lt;Path&gt;"/>
+    </g>
+    <g data-name="&lt;Group&gt;">
+        <path d="M20.118 20.798H4.293a.681.681 0 1 1 0-1.361h15.825a.681.681 0 1 1 0 1.361z" data-name="&lt;Path&gt;"/>
+    </g>
+    <g data-name="&lt;Group&gt;">
+        <circle cx=".543" cy=".543" r=".543" data-name="Ellipse 34" transform="translate(23.516 .29)"/>
+    </g>
+</svg>

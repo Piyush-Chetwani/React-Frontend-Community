@@ -1,0 +1,285 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.heading {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+}
+
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    margin-top: 0;
+    height: 40px;
+}
+
+.paginationDot {
+    height: 8px;
+    width: 8px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.paginationDotActive {
+    background-color: #ec3944;
+}
+
+.paginationDotInactive {
+    background-color: rgba(236, 57, 68, 0.25);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    justify-content: flex-end;
+    margin-top: 0
+}
+
+.arrowButton, .exploreButton {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.arrowButton button {
+    width: 9vw;
+    height: 9vw;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0 rgba(36, 57, 268, 0.25);
+    background-color: #2ba4dc;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.arrowButton img {
+    width: 5vw;
+}
+
+.exploreButton button {
+    border: none;
+    box-shadow: 0 10px 20px 0 rgba(236, 57, 68, 0.25);
+    background-color: #ec3944;
+    align-items: center;
+    color: #ffffff;
+    width: 60vw;
+    padding: 2vw;
+    border-radius: 0.3em;
+    margin-bottom: 10px;
+    font-family: Bahnschrift;
+    cursor: pointer;
+}
+
+.exploreButton img {
+    width: 6vw;
+    margin-left: 0vw;
+}
+
+.arrowButton button:hover, .exploreButton button:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.arrowButton button:focus, .arrowButton button:active {
+  outline: none;
+
+}
+
+.arrow {
+  margin-top: 10%;
+}
+
+@media all and (min-height: 1000px) {
+    .subContainer {
+        height: 180vh;
+    }
+}
+
+@media all and (max-width: 870px) {
+  .arrow {
+    margin-top: 35%;
+  }
+}
+
+@media all and (max-height: 500px) {
+    .subContainer {
+        height: 50vh;
+    }
+}
+
+@media all and (max-width: 500px) {
+  .arrow {
+    display: none;
+  }
+}
+
+@media all and (min-width: 501px) {
+  .arrowButton {
+    display: none;
+  }
+}
+
+@media all and (min-width: 2200px) {
+    .arrowButton, .paginationContainer {
+
+    }
+    .subContainer {
+        height: 80vh;
+
+    }
+    .heading {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .card {
+        margin-top: -38vh;
+    }
+    .buttons {
+        margin: 1.5em;
+        width: 20vw;
+        height: 10vh;
+        align-content: center;
+    }
+    .exploreButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: fit-content;
+        height: min-content;
+        align-content: flex-end;
+        margin-bottom: -9vh;
+        align-self: center;
+    }
+    .exploreButton button {
+        width: max-content;
+        /* height: 5vh; */
+        padding: 15px 2em;
+        border-radius: 0.3em;
+        margin: 7vw;
+        font-size: 1.4em;
+        align-self: center;
+    }
+    .exploreButton img {
+        width: 2em;
+        margin-left: 0vw;
+    }
+    .data {
+        max-height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*
+@media only screen and (min-width: 1200px) {
+    .heading {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .paginationContainer {
+        margin-top: 15px;
+    }
+    .card {
+        margin-top: 2.2vw;
+    }
+    .arrowButton {
+        width: 35vw;
+    }
+    .arrowButton button {
+        width: 38px;
+        height: 38px;
+    }
+    .arrowButton img {
+        width: 20px;
+        margin-bottom: none;
+    }
+    .exploreButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: fit-content;
+        height: min-content;
+        align-content: flex-end;
+        /* margin-bottom: -9vh;
+        align-self: center;
+    }
+    .exploreButton button {
+        width: max-content;
+        /* height: 5vh;
+        padding: 14px 2em;
+        border-radius: 0.3em;
+        margin: 1vw;
+        font-size: 20px;
+        align-self: center;
+    }
+    .exploreButton img {
+        width: 2em;
+        margin-left: 0vw;
+    }
+    .data {
+        height: 77vh;
+        margin: 1em;
+    }
+} */
+
+@media all and (min-width: 1200px) {
+  .arrowButton {
+      width: 100vw;
+  }
+  .arrowButton button {
+      width: 70px;
+      height: 70px;
+  }
+  .arrowButton img {
+      width: 30px;
+      margin-bottom: none;
+}
+}
+
+
+@media all and (min-width: 0px) {
+  .subContainer {
+    width: 0px;
+    height: 50vh;
+  }
+}

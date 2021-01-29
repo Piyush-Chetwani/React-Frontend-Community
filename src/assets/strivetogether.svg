@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="560" viewBox="0 0 990 560">
+    <defs>
+        <filter id="prefix__tom-parkes-Ns-BIiW_cNU-unsplash" width="990" height="560" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="20"/>
+            <feGaussianBlur result="blur" stdDeviation="20"/>
+            <feFlood flood-opacity=".251"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <rect id="prefix__tom-parkes-Ns-BIiW_cNU-unsplash-2" width="870" height="440" data-name="tom-parkes-Ns-BIiW_cNU-unsplash" rx="30" transform="translate(60 40)" style="fill:rgba(0,0,0,.3)"/>
+    </g>
+</svg>
